@@ -1,7 +1,7 @@
 name: pull-request.yaml
 on:
   pull_request:
-    branches: ["main"]
+    branches: ["master","main"]
 jobs:
   build:
     runs-on: ubuntu-20.04
